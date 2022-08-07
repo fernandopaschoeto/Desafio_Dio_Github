@@ -1,0 +1,20 @@
+Configurando Identificação no GIT
+
+ - git config --list
+ - git config --global user.name "Seu Nome"
+ - git config --global user.email "Seu Email"
+
+
+
+
+Comandos GIT para configurar um repositório: 
+
+ - git init
+ - git remote add origin URL
+ATENÇÃO: troque URL pelo caminho do seu repositório do Github
+ - git pull origin master
+ATENÇÃO: este comando só é necessário se você criou o .gitignore pelo Github
+ - git status
+ - git add .
+ - git commit -m "Projeto criado"
+ - git push -u origin master
